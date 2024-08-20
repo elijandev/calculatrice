@@ -5,26 +5,26 @@ function calc(){
   let operator=document.getElementById('operator').value;
  
 
-let netije=0
+let reponse=0
   if(isNaN(san1)||isNaN(san2)){
     alert('numbre');
     return
   }
   switch(operator){
     case"+":
-    netije=san1+san2;
+    reponse=san1+san2;
     break;
   
     case"-":
-    netije=san1-san2;
+    reponse=san1-san2;
     break;
   
     case"*":
-    netije=san1*san2;
+    reponse=san1*san2;
     break;
   
     case"/":
-    netije=san1/san2;
+    reponse=san1/san2;
     break;
   }
   let result=document.getElementById('netije')
